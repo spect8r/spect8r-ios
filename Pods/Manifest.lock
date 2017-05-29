@@ -1,0 +1,61 @@
+PODS:
+  - APAvatarImageView (1.1.0)
+  - Bolts (1.8.4):
+    - Bolts/AppLinks (= 1.8.4)
+    - Bolts/Tasks (= 1.8.4)
+  - Bolts/AppLinks (1.8.4):
+    - Bolts/Tasks
+  - Bolts/Tasks (1.8.4)
+  - FBSDKCoreKit (4.18.0):
+    - Bolts (~> 1.7)
+  - FBSDKLoginKit (4.18.0):
+    - FBSDKCoreKit
+  - FBSDKShareKit (4.18.0):
+    - FBSDKCoreKit
+  - GBDeviceInfo (4.2.2):
+    - GBDeviceInfo/Core (= 4.2.2)
+  - GBDeviceInfo/Core (4.2.2)
+  - GGTabBar (0.0.2)
+  - GoogleMaps (2.1.1):
+    - GoogleMaps/Maps (= 2.1.1)
+  - GoogleMaps/Base (2.1.1)
+  - GoogleMaps/Maps (2.1.1):
+    - GoogleMaps/Base
+  - IQKeyboardManager (4.0.7)
+  - JTImageButton (1.0.3)
+  - MBProgressHUD (1.0.0)
+  - MKDropdownMenu (1.3.1)
+  - SSCheckBoxView (0.0.1)
+
+DEPENDENCIES:
+  - APAvatarImageView
+  - FBSDKCoreKit
+  - FBSDKLoginKit
+  - FBSDKShareKit
+  - GBDeviceInfo (~> 4.2)
+  - GGTabBar (~> 0.0.2)
+  - GoogleMaps
+  - IQKeyboardManager
+  - JTImageButton
+  - MBProgressHUD
+  - MKDropdownMenu
+  - SSCheckBoxView
+
+SPEC CHECKSUMS:
+  APAvatarImageView: 428dbd0631a150fe876f90bfd7eaa275a19b9209
+  Bolts: 8a7995239dbe724f9cba2248b766d48b7ebdd322
+  FBSDKCoreKit: 15fef8804a4629f98c6f4e55e81a76c9d725d85e
+  FBSDKLoginKit: 6773073e970b2b15fb12e451ce7f11da0532b880
+  FBSDKShareKit: 0b8d6cc3f103c75297eb3c62caec284a2ccf1b9e
+  GBDeviceInfo: 0a6e2fc04989ce248572bb988f1a764102eb0e5d
+  GGTabBar: bd0f580e8861e922385f06659d21019e61de9150
+  GoogleMaps: a5b5bbe47734e2443bde781a6aa64e69fdb6d785
+  IQKeyboardManager: 69002bb4fea60596b710e57d426abc00e5063630
+  JTImageButton: 1b5cb0f731a9c06cdd0516d593f378dcfd233c91
+  MBProgressHUD: 4890f671c94e8a0f3cf959aa731e9de2f036d71a
+  MKDropdownMenu: 4c08580d8eac5b0229845cfd52775cdc7af77aad
+  SSCheckBoxView: bd0d5f17f87114b9f09de4041e8cdcb1c097f69a
+
+PODFILE CHECKSUM: 2ab2336aebef32698a8149f9d37b0cd84566849b
+
+COCOAPODS: 1.0.1
