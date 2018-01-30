@@ -6,8 +6,9 @@ target 'Spect8r' do
   # use_frameworks!
 
   # Pods for Spect8r
-	pod 'APAvatarImageView'
-	pod 'MBProgressHUD'
+    pod 'AFNetworking', '~> 2.6.3'
+    pod 'APAvatarImageView'
+    pod 'MBProgressHUD'
     pod 'GoogleMaps'
     pod 'GBDeviceInfo', '~> 4.2'
     pod 'FBSDKLoginKit'

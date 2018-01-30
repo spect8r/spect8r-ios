@@ -26,8 +26,6 @@
 		045DCD971E1C484000929D35 /* Reachability.m in Sources */ = {isa = PBXBuildFile; fileRef = 045DCD961E1C484000929D35 /* Reachability.m */; };
 		045DCDA41E1C4C1300929D35 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 045DCDA31E1C4C1300929D35 /* UIKit.framework */; };
 		045DCDB11E1C593300929D35 /* NSString+Base64.m in Sources */ = {isa = PBXBuildFile; fileRef = 045DCDB01E1C593300929D35 /* NSString+Base64.m */; };
-		045DCDB41E1C5A4400929D35 /* AFNetworking in Resources */ = {isa = PBXBuildFile; fileRef = 045DCDB21E1C5A4400929D35 /* AFNetworking */; };
-		045DCDB51E1C5A4400929D35 /* UIKit+AFNetworking in Resources */ = {isa = PBXBuildFile; fileRef = 045DCDB31E1C5A4400929D35 /* UIKit+AFNetworking */; };
 		04D45AB91E130C6500AC58DC /* museosans-100-webfont.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 04FF48F31E12217A00E9F7FB /* museosans-100-webfont.ttf */; };
 		04D45ABA1E130C6500AC58DC /* museosans-500-webfont.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 04FF48FA1E12966000E9F7FB /* museosans-500-webfont.ttf */; };
 		04D45ABB1E130C6500AC58DC /* museosans-700-webfont.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 04FF48FB1E12966000E9F7FB /* museosans-700-webfont.ttf */; };
@@ -72,6 +70,7 @@
 		04FF49961E12CD3500E9F7FB /* UIButton+ButtonsTypes.m in Sources */ = {isa = PBXBuildFile; fileRef = 04FF49911E12CD3500E9F7FB /* UIButton+ButtonsTypes.m */; };
 		04FF49971E12CD3500E9F7FB /* UIAlertView+Blocks.m in Sources */ = {isa = PBXBuildFile; fileRef = 04FF49931E12CD3500E9F7FB /* UIAlertView+Blocks.m */; };
 		04FF49981E12CD3500E9F7FB /* NSAttributedString+FontSize.m in Sources */ = {isa = PBXBuildFile; fileRef = 04FF49951E12CD3500E9F7FB /* NSAttributedString+FontSize.m */; };
+		64DA04FD1FEB21F500303459 /* libAFNetworking.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 64DA04FC1FEB21F500303459 /* libAFNetworking.a */; };
 		685D375BAEEC6D5CD3BA269A /* libPods-Spect8rTests.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 63394CDD042C61A6F19CA0B7 /* libPods-Spect8rTests.a */; };
 		938A6C93CBCC6CF2C344E7C4 /* libPods-Spect8rUITests.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 56C90FE8B9B6C19E417B0F5A /* libPods-Spect8rUITests.a */; };
 		B44B94B0173C8F9169D950A9 /* libPods-Spect8r.a in Frameworks */ = {isa = PBXBuildFile; fileRef = C67A328E2B27C059AB51CA28 /* libPods-Spect8r.a */; };
@@ -132,8 +131,6 @@
 		045DCDA31E1C4C1300929D35 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
 		045DCDAF1E1C593300929D35 /* NSString+Base64.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSString+Base64.h"; sourceTree = "<group>"; };
 		045DCDB01E1C593300929D35 /* NSString+Base64.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSString+Base64.m"; sourceTree = "<group>"; };
-		045DCDB21E1C5A4400929D35 /* AFNetworking */ = {isa = PBXFileReference; lastKnownFileType = folder; path = AFNetworking; sourceTree = "<group>"; };
-		045DCDB31E1C5A4400929D35 /* UIKit+AFNetworking */ = {isa = PBXFileReference; lastKnownFileType = folder; path = "UIKit+AFNetworking"; sourceTree = "<group>"; };
 		04D45ABE1E13161C00AC58DC /* RegisterViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RegisterViewController.h; sourceTree = "<group>"; };
 		04D45ABF1E13161C00AC58DC /* RegisterViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RegisterViewController.m; sourceTree = "<group>"; };
 		04DF081C1E134F230093CE17 /* SetUpProfileViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SetUpProfileViewController.h; sourceTree = "<group>"; };
@@ -223,6 +220,7 @@
 		56C90FE8B9B6C19E417B0F5A /* libPods-Spect8rUITests.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-Spect8rUITests.a"; sourceTree = BUILT_PRODUCTS_DIR; };
 		57C29C1F8995DFC14C6FDE7B /* Pods-Spect8rTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Spect8rTests.release.xcconfig"; path = "Pods/Target Support Files/Pods-Spect8rTests/Pods-Spect8rTests.release.xcconfig"; sourceTree = "<group>"; };
 		63394CDD042C61A6F19CA0B7 /* libPods-Spect8rTests.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-Spect8rTests.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		64DA04FC1FEB21F500303459 /* libAFNetworking.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; name = libAFNetworking.a; path = "../../../Library/Developer/Xcode/DerivedData/Spect8r-gpguipnmfoygotbowrdcltyzrwck/Build/Products/Debug-iphonesimulator/AFNetworking/libAFNetworking.a"; sourceTree = "<group>"; };
 		9358670B8D647417201E7AE8 /* Pods-Spect8rUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Spect8rUITests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-Spect8rUITests/Pods-Spect8rUITests.debug.xcconfig"; sourceTree = "<group>"; };
 		C67A328E2B27C059AB51CA28 /* libPods-Spect8r.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-Spect8r.a"; sourceTree = BUILT_PRODUCTS_DIR; };
 		EA32048BE1143DB46D396CD6 /* Pods-Spect8r.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Spect8r.debug.xcconfig"; path = "Pods/Target Support Files/Pods-Spect8r/Pods-Spect8r.debug.xcconfig"; sourceTree = "<group>"; };
@@ -233,6 +231,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				64DA04FD1FEB21F500303459 /* libAFNetworking.a in Frameworks */,
 				045DCDA41E1C4C1300929D35 /* UIKit.framework in Frameworks */,
 				B44B94B0173C8F9169D950A9 /* libPods-Spect8r.a in Frameworks */,
 			);
@@ -318,8 +317,6 @@
 		04FF48BA1E1215C000E9F7FB /* Spect8r */ = {
 			isa = PBXGroup;
 			children = (
-				045DCDB21E1C5A4400929D35 /* AFNetworking */,
-				045DCDB31E1C5A4400929D35 /* UIKit+AFNetworking */,
 				04FF48F11E121A6300E9F7FB /* Resources */,
 				04FF48BE1E1215C000E9F7FB /* AppDelegate.h */,
 				04FF48BF1E1215C000E9F7FB /* AppDelegate.m */,
@@ -506,6 +503,7 @@
 		F8EED6E63C94A954A705273E /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
+				64DA04FC1FEB21F500303459 /* libAFNetworking.a */,
 				045DCDA31E1C4C1300929D35 /* UIKit.framework */,
 				C67A328E2B27C059AB51CA28 /* libPods-Spect8r.a */,
 				63394CDD042C61A6F19CA0B7 /* libPods-Spect8rTests.a */,
@@ -567,6 +565,7 @@
 				04FF48DC1E1215C100E9F7FB /* Frameworks */,
 				04FF48DD1E1215C100E9F7FB /* Resources */,
 				6EFD1D8D604D2284A20319C1 /* [CP] Copy Pods Resources */,
+				D7462574E5D2875C05BD1605 /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -632,10 +631,8 @@
 				04D45AB91E130C6500AC58DC /* museosans-100-webfont.ttf in Resources */,
 				04D45ABA1E130C6500AC58DC /* museosans-500-webfont.ttf in Resources */,
 				04D45ABB1E130C6500AC58DC /* museosans-700-webfont.ttf in Resources */,
-				045DCDB41E1C5A4400929D35 /* AFNetworking in Resources */,
 				04D45ABC1E130C6500AC58DC /* museosans-900-webfont.ttf in Resources */,
 				04D45ABD1E130C6500AC58DC /* MuseoSansCyrl_3.otf in Resources */,
-				045DCDB51E1C5A4400929D35 /* UIKit+AFNetworking in Resources */,
 				04FF48CE1E1215C100E9F7FB /* LaunchScreen.storyboard in Resources */,
 				04FF48CB1E1215C100E9F7FB /* Assets.xcassets in Resources */,
 				045C2CDA1E156C340003C1DD /* ShapeSelectView.xib in Resources */,
@@ -681,9 +678,34 @@
 			files = (
 			);
 			inputPaths = (
+				"${SRCROOT}/Pods/Target Support Files/Pods-Spect8r/Pods-Spect8r-resources.sh",
+				"${PODS_ROOT}/FBSDKCoreKit/FacebookSDKStrings.bundle",
+				"${PODS_ROOT}/GoogleMaps/Maps/Frameworks/GoogleMaps.framework/Versions/A/Resources/GoogleMaps.bundle",
+				"${PODS_ROOT}/IQKeyboardManager/IQKeyboardManager/Resources/IQKeyboardManager.bundle",
+				"${PODS_ROOT}/SSCheckBoxView/SSCheckBoxView/SSCheckBoxView/Graphics/cb_box_off.png",
+				"${PODS_ROOT}/SSCheckBoxView/SSCheckBoxView/SSCheckBoxView/Graphics/cb_box_off@2x.png",
+				"${PODS_ROOT}/SSCheckBoxView/SSCheckBoxView/SSCheckBoxView/Graphics/cb_box_on.png",
+				"${PODS_ROOT}/SSCheckBoxView/SSCheckBoxView/SSCheckBoxView/Graphics/cb_box_on@2x.png",
+				"${PODS_ROOT}/SSCheckBoxView/SSCheckBoxView/SSCheckBoxView/Graphics/cb_dark_off.png",
+				"${PODS_ROOT}/SSCheckBoxView/SSCheckBoxView/SSCheckBoxView/Graphics/cb_dark_off@2x.png",
+				"${PODS_ROOT}/SSCheckBoxView/SSCheckBoxView/SSCheckBoxView/Graphics/cb_dark_on.png",
+				"${PODS_ROOT}/SSCheckBoxView/SSCheckBoxView/SSCheckBoxView/Graphics/cb_dark_on@2x.png",
+				"${PODS_ROOT}/SSCheckBoxView/SSCheckBoxView/SSCheckBoxView/Graphics/cb_glossy_off.png",
+				"${PODS_ROOT}/SSCheckBoxView/SSCheckBoxView/SSCheckBoxView/Graphics/cb_glossy_off@2x.png",
+				"${PODS_ROOT}/SSCheckBoxView/SSCheckBoxView/SSCheckBoxView/Graphics/cb_glossy_on.png",
+				"${PODS_ROOT}/SSCheckBoxView/SSCheckBoxView/SSCheckBoxView/Graphics/cb_glossy_on@2x.png",
+				"${PODS_ROOT}/SSCheckBoxView/SSCheckBoxView/SSCheckBoxView/Graphics/cb_green_off.png",
+				"${PODS_ROOT}/SSCheckBoxView/SSCheckBoxView/SSCheckBoxView/Graphics/cb_green_off@2x.png",
+				"${PODS_ROOT}/SSCheckBoxView/SSCheckBoxView/SSCheckBoxView/Graphics/cb_green_on.png",
+				"${PODS_ROOT}/SSCheckBoxView/SSCheckBoxView/SSCheckBoxView/Graphics/cb_green_on@2x.png",
+				"${PODS_ROOT}/SSCheckBoxView/SSCheckBoxView/SSCheckBoxView/Graphics/cb_mono_off.png",
+				"${PODS_ROOT}/SSCheckBoxView/SSCheckBoxView/SSCheckBoxView/Graphics/cb_mono_off@2x.png",
+				"${PODS_ROOT}/SSCheckBoxView/SSCheckBoxView/SSCheckBoxView/Graphics/cb_mono_on.png",
+				"${PODS_ROOT}/SSCheckBoxView/SSCheckBoxView/SSCheckBoxView/Graphics/cb_mono_on@2x.png",
 			);
 			name = "[CP] Copy Pods Resources";
 			outputPaths = (
+				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}",
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
@@ -711,13 +733,16 @@
 			files = (
 			);
 			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
 			);
 			name = "[CP] Check Pods Manifest.lock";
 			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-Spect8r-checkManifestLockResult.txt",
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
-			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
 			showEnvVarsInLog = 0;
 		};
 		6EFD1D8D604D2284A20319C1 /* [CP] Copy Pods Resources */ = {
@@ -741,13 +766,31 @@
 			files = (
 			);
 			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
 			);
 			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-Spect8rTests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		D7462574E5D2875C05BD1605 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
 			outputPaths = (
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
-			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-Spect8rUITests/Pods-Spect8rUITests-frameworks.sh\"\n";
 			showEnvVarsInLog = 0;
 		};
 		ED224E64A2721501C444843E /* [CP] Embed Pods Frameworks */ = {
@@ -771,13 +814,16 @@
 			files = (
 			);
 			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
 			);
 			name = "[CP] Check Pods Manifest.lock";
 			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-Spect8rUITests-checkManifestLockResult.txt",
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
-			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
 			showEnvVarsInLog = 0;
 		};
 /* End PBXShellScriptBuildPhase section */
